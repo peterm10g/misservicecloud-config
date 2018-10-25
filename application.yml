@@ -4,12 +4,14 @@ spring:
         - dev
 
 ---
+
 spring:
     profiles: dev
     application:
         name: servicecloud-dev
 
 ---
+
 spring:
     profiles: test
     application:
